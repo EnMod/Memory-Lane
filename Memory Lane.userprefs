@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MotionToolkit\Scripts\Management\UnityBeckonManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SkeletonTrackingAnimation.cs" Line="24" Column="36" />
+      <File FileName="Assets\Scripts\Storyboard1.js" Line="67" Column="13" />
+      <File FileName="Assets\Scripts\NoPainNoGain.js" Line="36" Column="25" />
+      <File FileName="Assets\Scripts\Talkbox.js" Line="8" Column="1" />
+      <File FileName="Assets\Scripts\Storyboard2.js" Line="9" Column="1" />
+      <File FileName="Assets\Scripts\4ch3FadeLoad.js" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\1IntroFadeLoad.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\2ch1FadeLoad.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TriggerTalk.js" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\SoldierSpawn.js" Line="5" Column="23" />
+      <File FileName="Assets\Scripts\TriggerEnd.js" Line="3" Column="8" />
+      <File FileName="Assets\Scripts\DaviesBehavior.js" Line="15" Column="1" />
+      <File FileName="Assets\MotionToolkit\Scripts\Management\UnityBeckonManager.cs" Line="78" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

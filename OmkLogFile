@@ -1,0 +1,12 @@
+OMK_ERROR_NO_CAMERA_FOUND	..\..\Shadow\DataManager.cpp	3673	Omek::DataManager::detectCameraType	Thu May 09 03:19:56 2013
+429	..\..\Shadow\Shadow_C_Wrapper.cpp	35	createCameraSensor	Thu May 09 03:19:56 2013
+OMK_ERROR_NO_CAMERA_FOUND	..\..\Shadow\DataManager.cpp	3673	Omek::DataManager::detectCameraType	Thu May 09 03:21:36 2013
+429	..\..\Shadow\Shadow_C_Wrapper.cpp	35	createCameraSensor	Thu May 09 03:21:36 2013
+OMK_ERROR_NO_CAMERA_FOUND	..\..\Shadow\DataManager.cpp	3673	Omek::DataManager::detectCameraType	Thu May 09 03:21:52 2013
+429	..\..\Shadow\Shadow_C_Wrapper.cpp	35	createCameraSensor	Thu May 09 03:21:52 2013
+OMK_ERROR_NO_CAMERA_FOUND	..\..\Shadow\DataManager.cpp	3673	Omek::DataManager::detectCameraType	Thu May 09 03:23:08 2013
+429	..\..\Shadow\Shadow_C_Wrapper.cpp	35	createCameraSensor	Thu May 09 03:23:08 2013
+OMK_ERROR_FILE_NOT_FOUND	..\..\Shadow\DataManager.cpp	2528	Omek::DataManager::detectSequenceCamera	Thu May 09 03:23:20 2013
+6	..\..\Shadow\Shadow_C_Wrapper.cpp	65	createSequenceSensor	Thu May 09 03:23:20 2013
+OMK_ERROR_NO_CAMERA_FOUND	..\..\Shadow\DataManager.cpp	3673	Omek::DataManager::detectCameraType	Thu May 09 03:25:20 2013
+429	..\..\Shadow\Shadow_C_Wrapper.cpp	35	createCameraSensor	Thu May 09 03:25:20 2013

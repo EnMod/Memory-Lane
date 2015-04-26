@@ -1,0 +1,28 @@
+<ClassifierParams hidden="true">
+    <GestureDataParams vectorSize="19" voteSize="1" refractoryPeriod="15" isRefractoryPerGroup="true" usePositions="false" usePositionsX="false" usePositionsY="true" usePositionsZ="false" useDeltas="false" useDeltasX="false" useDeltasY="false" useDeltasZ="true" useRelativePositions="false" useRelativePositionsX="true" useRelativePositionsY="false" useRelativePositionsZ="false" flipx="false" useHeadConfidence="false" relativeJoint="torso" isRepetitive="false" fps="30">
+        <Joints>
+            <Joint name="rightFingerTip" X="true" Y="true" Z="true" />
+        </Joints>
+        <Scale normalizeMean="false" normalizeSTD="false" doLocalScale="false" doGlobalScale="false" perCoordScaling="false" useSmooth="false" smoothStrength="0" />
+    </GestureDataParams>
+    <LearningParams useLinear="false" gestureExpand="0" otherOverlap="0.0000" useWeights="true" weightFactor1="0.70" weightFactor2="20" testToleranceRight="3" testToleranceLeft="7" cost="2.00" gamma="-13.00" linearSolver="0" useSynthetic="false">
+        <TrainFiles>
+        </TrainFiles>
+        <TestFiles>
+        </TestFiles>
+        <OutputFile path="rightSwipeRightClassifier.xml" />
+        <Result avgAccuracy="1" trainAccuracy="1" testAccuracy="0.983248" confusionMatrix="" />
+    </LearningParams>
+    <Gestures framesBefore="17">
+        <Gesture categoryName="rightScrollRight" gestureName="_rightScrollRight" label="3" />
+        <Gesture categoryName="xnegative" gestureName="noScroll" label="2" />
+        <Gesture categoryName="xnegative" gestureName="rightPush" label="2" />
+        <Gesture categoryName="xnegative" gestureName="rightScrollDown" label="2" />
+        <Gesture categoryName="xnegative" gestureName="rightScrollLeft" label="2" />
+        <Gesture categoryName="xnegative" gestureName="rightScrollUp" label="2" />
+        <Gesture categoryName="other" gestureName="other" label="1" />
+    </Gestures>
+    <Model fileName="rightScrollRightClassifier.model" />
+    <Date created="9/26/2011 8:12:38 PM" published="" />
+    <Comment value="" />
+</ClassifierParams>

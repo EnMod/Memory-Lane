@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{AFBC2D16-14B4-3FD9-B52E-68E4FC83024F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Detonator Explosion Framework\Sample Supporting Emitters\Detonator Spray Helper.js" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.js" />
+     <Compile Include="Assets\Scripts\1IntroFadeLoad.js" />
+     <Compile Include="Assets\Scripts\2ch1FadeLoad.js" />
+     <Compile Include="Assets\Scripts\3ch2FadeLoad.js" />
+     <Compile Include="Assets\Scripts\4ch3FadeLoad.js" />
+     <Compile Include="Assets\Scripts\ActivatorFreeze.js" />
+     <Compile Include="Assets\Scripts\AtmosphereSpawn.js" />
+     <Compile Include="Assets\Scripts\ChangeColor.js" />
+     <Compile Include="Assets\Scripts\DaviesBehavior.js" />
+     <Compile Include="Assets\Scripts\DroppinBombs.js" />
+     <Compile Include="Assets\Scripts\Exploud.js" />
+     <Compile Include="Assets\Scripts\FadeOut.js" />
+     <Compile Include="Assets\Scripts\HealingTouch.js" />
+     <Compile Include="Assets\Scripts\LookBackToCenter.js" />
+     <Compile Include="Assets\Scripts\NoPainNoGain.js" />
+     <Compile Include="Assets\Scripts\SoldierSpawn.js" />
+     <Compile Include="Assets\Scripts\StartiTween.js" />
+     <Compile Include="Assets\Scripts\Storyboard1.js" />
+     <Compile Include="Assets\Scripts\Storyboard2.js" />
+     <Compile Include="Assets\Scripts\Talkbox.js" />
+     <Compile Include="Assets\Scripts\TentSpawn.js" />
+     <Compile Include="Assets\Scripts\TriggerEnd.js" />
+     <Compile Include="Assets\Scripts\TriggerPAIN.js" />
+     <Compile Include="Assets\Scripts\TriggerTalk.js" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\leftClickClassifier.xml" />
+     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\MotionToolkit\Plugins\BeckonDotNetFramework.xml" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\rightScrollRightClassifier.xml" />
+     <None Include="Assets\MotionToolkit\Plugins\BeckonDotNet.xml" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\rightClickClassifier.xml" />
+     <None Include="Assets\MotionToolkit\Plugins\CommonFrameworkForBeckon.xml" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\leftBasicClassifier.xml" />
+     <None Include="Assets\iTweenEditor\README.txt" />
+     <None Include="Assets\MotionToolkit\Prefabs\Images\Shaders\PlayerMaskShaderPlusGlowForPlanes.shader" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\leftScrollLeftClassifier.xml" />
+     <None Include="Assets\MotionToolkit\Plugins\BeckonDotNetWrapper.xml" />
+     <None Include="Assets\MotionToolkit\Resources\Classifiers\BasicGesturePack\rightBasicClassifier.xml" />
+     <None Include="Assets\MotionToolkit\Prefabs\Images\Shaders\PlayerMaskShaderGlowForPlanes.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="BeckonDotNet">
+ <HintPath>Assets\MotionToolkit\Plugins\BeckonDotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="BeckonDotNetFramework">
+ <HintPath>Assets\MotionToolkit\Plugins\BeckonDotNetFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="BeckonDotNetWrapper">
+ <HintPath>Assets\MotionToolkit\Plugins\BeckonDotNetWrapper.dll</HintPath>
+ </Reference>
+ <Reference Include="CommonFrameworkForBeckon">
+ <HintPath>Assets\MotionToolkit\Plugins\CommonFrameworkForBeckon.dll</HintPath>
+ </Reference>
+ <Reference Include="log4net">
+ <HintPath>Assets\MotionToolkit\Plugins\log4net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{841F0989-B876-7B5E-1BBC-F962CB1A546F}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
